@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dunav Translogistics</title>
+  <link rel="icon" href="images/dunav logo.svg" type="image/x-icon">
+  <link rel="stylesheet" href="styles/navbar.css">
+  <link rel="stylesheet" href="styles/style.css">
+  <link rel="stylesheet" href="styles/swiper.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+  <!-- for google font  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Agbalumo&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+  <!-- <link href="https://fonts.googleapis.com/css2?family=Agbalumo&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet"> -->
+
+  <style>
+    html,
+    body {
+      position: relative;
+      height: 100%;
+      scroll-behavior: smooth;
+    }
+
+    .swiper {
+      width: 100%;
+      height: 100%;
+      color: white;
+      /* position: absolute; */
+      /* margin-top: 600px; */
+    }
+
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      /* background: #fff0; */
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .swiper-slide img {
+      display: block;
+      width: 100%;
+      height: 100vh;
+      object-fit: cover;
+    }
+
+    @media only screen and (max-width: 768px) {
+      /* homepg */
+      .swiper-slide h2 {
+        text-align: center;
+        font-size: 30px;
+      }
+    }
+  </style>
+
+  <script src="https://kit.fontawesome.com/1c8247bb1b.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <!-- the header/navigation of this website -->
+  <header>
+    <div class="brand">
+      <a href="index.html">
+        <img src="images/dunav logo.svg" alt="">
+        <span class="logo">Dunav Translogistics</span>
+        <span class="mobile-logo">Dunav</span>
+      </a>
+    </div>
+
+    <div class="menu-icon" id="js-menu-icon">
+      <i class="fa-solid fa-bars fa-2x " style="color: #051924"></i>
+    </div>
+
+    <nav id="js-navbar" >
+      <div class="cancel-icon" id="js-cancel-icon">
+        <i class="fa-solid fa-xmark fa-3x" style="color: #051924;" ></i>
+      </div>
+      <ul id="navbar">
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#services" id="product-link">Our Service</a></li>
+        <li><a href="contact.html">Get In Touch</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Landing page  -->
+    <section class="home-page">
+      <!-- Swiper -->
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide" data-swiper-autoplay="2000">
+            <img src="images/herro2.jpeg" alt="" class="home-img">
+            <div class="overlay">
+              <h2>Dunav Translogistics</h2>
+              <p>info@dunavtranlogistics.com </p>
+              <p> +31635250063</p>
+               <div class="btn-container">
+                <button class="js-abt" onclick="window.location.href ='/#services'">Our Services</button>
+                <button class="js-abt" onclick="window.location.href='/contact.html'">
+                  <span>Get In Touch</span>
+                </button>
+               </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- the second section of this page  -->
+    <section class="diesel-container" id="about">
+      <div class="row">
+        <div class="col about-txt-contents">
+          <h2 class="about-us-h"
+          data-aos="fade-right"
+          data-aos-offset="0"
+          data-aos-delay="20"
+          data-aos-duration="1000"
+          data-aos-easing="ease-in-out"
+          data-aos-mirror="true"
+          data-aos-once="false"
+          data-aos-anchor-placement="top-center"
+          >ABOUT OUR COMPNAY</h2>
+          <p class="p-content"
+          data-aos="fade-down"
+          data-aos-offset="0"
+          data-aos-delay="20"
+          data-aos-duration="1000"
+          data-aos-easing="ease-in-out"
+          data-aos-mirror="true"
+          data-aos-once="false"
+          data-aos-anchor-placement="top-center"
+          >
+          Dunav Translogistics Is an independent operator of midstream and downstream bulk liquid shipping and storage facilities for chemicals, oils and refined petroleum products currently owning and operating a global network of storage with a combined storage capacity of 2.6 million m³. Our global footprint consists of facilities located in Romania , Rotterdam and Houston serving over 1000 customers including all major players. Our goal is simple. We aim to provide our customers with the safest, most reliable and efficient tank storage and logistical systems.
+          </p>
+          <br>
+          <br>
+          <p class="p-content"
+          data-aos="fade-down"
+          data-aos-offset="0"
+          data-aos-delay="20"
+          data-aos-duration="1000"
+          data-aos-easing="ease-in-out"
+          data-aos-mirror="true"
+          data-aos-once="false"
+          data-aos-anchor-placement="top-center"
+          >
+            Together with our highly skilled personnel, we ensure that there is no such thing as a dangerous product, at least not while in our care. Because a good risk management concept serves as the cornerstone of our operations, we are convinced that we will be successful in accomplishing our aim. This way of thinking encourages people to combine taking advantage of opportunities with fostering an inventive and entrepreneurial spirit while minimizing risks to manageable levels.
+          </p>
+          <br>
+          <br>
+          <p class="p-content"
+          data-aos="fade-down"
+          data-aos-offset="0"
+          data-aos-delay="20"
+          data-aos-duration="1000"
+          data-aos-easing="ease-in-out"
+          data-aos-mirror="true"
+          data-aos-once="false"
+          data-aos-anchor-placement="top-center"
+          >
+           In order to improve the value to our shareholders, we continue to pursue a strategy of controlled growth of our tank terminal-based service network through acquisitions, new construction, and rehabilitation of existing facilities. Adrianic Trans Logistics S.R.L. offers infrastructure that is specially made to order with a strong emphasis on the needs of the customer. It prioritizes offering reliable, safe, and efficient services when designing and operating its facilities. Dunav Translogistics offers programs for security compliance and asset protection that are among the best in the business.
+          </p>
+          <br>
+          <br>
+          <p class="p-content"
+          data-aos="fade-down"
+          data-aos-offset="0"
+          data-aos-delay="20"
+          data-aos-duration="1000"
+          data-aos-easing="ease-in-out"
+          data-aos-mirror="true"
+          data-aos-once="false"
+          data-aos-anchor-placement="top-center"
+          >
+          The company Dunav Translogistics is aware that certain of its customers might have particular demands regarding brand protection, the shipping of dangerous goods, or adherence to national security laws. We offer guidance and proactive partnership to make sure that the security requirements of our customers are met. We guarantee the integrity of customer assets when they are in transit or at their site by utilizing cutting-edge and tried-and-true technology.
+          </p>
+        </div>
+        
+        <div class="col sec-col" 
+          data-aos="zoom-in"
+          data-aos-offset="0"
+          data-aos-delay="20"
+          data-aos-duration="1000"
+          data-aos-easing="ease-in-out"
+          data-aos-mirror="true"
+          data-aos-once="false"
+          data-aos-anchor-placement="top-center"
+        >
+          <div class="abt-img-contents">
+            <img src="images/TankFarm.jpg" alt="" class="diesel-pic">
+            <span class="tnk-strg">Tank Storage</span>
+          </div>
+          <div class="abt-img-contents">
+            <img src="images/truck.jpg" alt="" class="diesel-pic">
+            <span class="log-svcs">Logistics Svcs</span>
+          </div>
+          <div class="abt-img-contents">
+            <img src="images/ship.jpg" alt="" class="diesel-pic">
+            <span class="ship-svcs">Shipping Svcs</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- section four the surverqur page -->
+    <section class="surverqur">
+      <img src="images/herro.jpg" alt="">
+      <div class="resp-over-div">
+        <div class="overlay" id="surverqur-overlay">
+          <div class="contents">
+            <h2 class="contact-h2" 
+              data-aos="fade-up"
+            >Our Vision </h2>
+            <p 
+              data-aos="fade-up"
+              data-aos-offset="0"
+              data-aos-delay="20"
+              data-aos-duration="1000"
+              data-aos-easing="ease-in-out"
+              data-aos-mirror="true"
+              data-aos-once="false"
+              data-aos-anchor-placement="top-center"
+              id="mission-p"
+            >
+              We at Dunav Translogistics favor cooperation! Our teams collaborate while also operating independently to offer our customers the most practical answers to their questions.
+            </p> 
+          </div>
+        </div>
+  
+        <div class="overlay" id="surverqur-overlay2">
+  
+          <div class="contents">
+            <h2 class="contact-h2" 
+              data-aos="fade-up"
+            >Our Mission </h2>
+            <p 
+              data-aos="fade-up"
+              data-aos-offset="0"
+              data-aos-delay="20"
+              data-aos-duration="1000"
+              data-aos-easing="ease-in-out"
+              data-aos-mirror="true"
+              data-aos-once="false"
+              data-aos-anchor-placement="top-center"
+              id="mission-p"
+            >
+             The tank storage and logistics sector had to deal with significant changes brought about by cutting-edge digital procedures set up to speed up the process while protecting sensitive data.
+            </p> 
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- section five the refinery page  -->
+    <section class="refinery-container" id="services">
+        <div class="refinery-row">
+          <div class="refinery-col ref-contents">
+            <h2
+            data-aos="zoom-out-down"
+            data-aos-offset="0"
+            data-aos-delay="20"
+            data-aos-duration="1000"
+            data-aos-easing="ease-in-out"
+            data-aos-mirror="true"
+            data-aos-once="false"
+            data-aos-anchor-placement="top-center"
+            >
+            Tank Farm Services
+            </h2>
+            <p class="p-refinery" 
+              data-aos="fade-up"
+              data-aos-offset="0"
+              data-aos-delay="20"
+              data-aos-duration="1000"
+              data-aos-easing="ease-in-out"
+              data-aos-mirror="true"
+              data-aos-once="false"
+              data-aos-anchor-placement="top-center"
+            >
+              Storage and distribution facilities are owned and operated by Dunav Translogistics Our bulk storage facilities have more than 7.5 million barrels of petroleum. Our terminals have cutting-edge ethanol and biofuel mixing techniques, as well as multi-modal capabilities (pipeline, truck, rail, and light oil barges). Dunav Translogistics also has contacts with third parties in Romania that allow us to market from around 20 terminals. Use the interactive map below to choose a terminal location that suits your company’s needs.
+              <br>
+              <br>
+              The tanks are connected to the pumps that supply the long-distance pipelines via underground transfer pipes that run between the tanker pier and the tanks themselves and are controlled centrally and remotely. Additionally, different crude oil grades may be delivered to different parts of the tank farm in order to, for example, develop particular desirable qualities and features in the crude oil and feedstock. The tanks can also be utilized to carry crude oil into or out of the caves.
+              <br>
+              <br>
+              Regardless of the method now in use, any batch of crude oil entering Adrianic Trans Logistics S.R.L., whether it arrives from a tanker or a cavern, is first sent through the tanks to have its quantity measured before it is transferred into long-distance pipes. The tank farm’s primary purpose is to act as a buffer. While simultaneously shipping crude oil cargoes from tankers arriving at unpredictable intervals, uninterrupted operation of the long-distance pipelines may be ensured.
+              <br>
+              <br>
+              The technical administration of the storage facilities as well as technical management by third parties are under the purview of one of the organizational divisions of the corporation. As one of its foundations, the technical division aims to ensure that the shipowner’s vessels run as economically and technically effectively as feasible. When creating storage tanks, the technical department acts as the customer’s representative and ensures tank upkeep. The organization offers 24-hour monitoring of the technical condition of the storage facilities, the efficiency of all units and mechanisms, and the timeliness of their service. The Adrianic Trans Logistics S.R.L. management is categorically in support of putting this plan into action.
+              <br>
+              <br>
+              The organization recognizes that customer happiness is essential to Dunav Translogistics success. While maintaining secure, productive storage and transshipment of petroleum and petrochemical products, we strive to minimize product volume losses and quality variances. In order to do this, we: conduct all operations in accordance with all relevant laws, rules, and regulations in a secure and client-centered manner. to provide the same superior level of service to all customers while treating them equitably. Maintain an up-to-date, well-documented, and coordinated quality management system. Strict confidentiality must be maintained at all times while dealing with customer interests, especially information regarding product specifications.
+            </p>
+          </div>
+  
+  
+          <div class="refinery-col">
+            <!-- <div class="refinery-img-div"> -->
+              <img src="images/tank3.jpg" alt="" class="refinery-img" 
+                data-aos="zoom-out-left"
+                data-aos-offset="0"
+                data-aos-delay="20"
+                data-aos-duration="1000"
+                data-aos-easing="ease-in-out"
+                data-aos-mirror="true"
+                data-aos-once="false"
+                data-aos-anchor-placement="top-center"
+              >
+              <img src="images/tank2.jpg" alt="" class="refinery-img" 
+                data-aos="zoom-out-left"
+                data-aos-offset="0"
+                data-aos-delay="20"
+                data-aos-duration="1000"
+                data-aos-easing="ease-in-out"
+                data-aos-mirror="true"
+                data-aos-once="false"
+                data-aos-anchor-placement="top-center"
+              >
+              <img src="images/tank1.jpg" alt="" class="refinery-img" 
+                data-aos="zoom-out-left"
+                data-aos-offset="0"
+                data-aos-delay="20"
+                data-aos-duration="1000"
+                data-aos-easing="ease-in-out"
+                data-aos-mirror="true"
+                data-aos-once="false"
+                data-aos-anchor-placement="top-center"
+              >
+          </div>
+        </div>
+    </section>
+
+    <!-- section six support page  -->
+    <section class="support-container" id="contact" 
+    data-aos="fade-up"
+    data-aos-offset="0"
+    data-aos-delay="20"
+    data-aos-duration="1000"
+    data-aos-easing="ease-in-out"
+    data-aos-mirror="true"
+    data-aos-once="false"
+    data-aos-anchor-placement="top-center"
+    >
+      <div class="support-div">
+        <h2 
+        >
+          Do you have any questions or inquiry?
+        </h2>
+        <button onclick="window.location.href='/contact.html'" >
+          <!-- <img src="images/msg.png" alt="" width="15px"> -->
+          <span>Get In Touch</span>
+        </button>
+      </div>
+    </section>
+
+    <!-- footer section of this page  -->
+    <footer class="footer-container">
+      <div class="footer-div">
+        <h1 
+        data-aos="fade-down"
+        > Dunav Translogistics</h1>
+        <p class="contact-email" 
+        >
+          Email: info@dunavtranlogistics.com 
+        </p>
+        <p class="contact-email"> +31635250063 </p>
+        <hr style="width: 100%;">
+        <p class="contact-details"  id="copyright"
+        >
+          © Copyright 2025 by Dunav Translogistics. All Rights Reserved
+        </p>
+      </div>
+    </footer>
+  </main>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="scripts/navbar.js"></script>
+  <script src="scripts/index.js"></script>
+
+  <!-- swiper APi -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      pagination: {
+        el: ".swiper-pagination",
+        type: "fraction",
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+      autoplay: {
+      delay: 5000,
+      },
+    });
+  </script>
+  <!-- Scroll Animation APi -->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+    AOS.init({
+      // Global settings:
+      disable: true, // accepts following values: 'phone', 'tablet', 'mobile', boolean, expression or function
+      startEvent: 'DOMContentLoaded', 
+      initClassName: 'aos-init',
+      animatedClassName: 'aos-animate', 
+      useClassNames: false,
+      disableMutationObserver: false, 
+      debounceDelay: 50, 
+      throttleDelay: 99, 
+      
+
+      // Settings that can be overridden on per-element basis, by `data-aos-*` attributes:
+      offset: 120, // offset (in px) from the original trigger point
+      delay: 0, // values from 0 to 3000, with step 50ms
+      duration: 4000, // values from 0 to 3000, with step 50ms
+      easing: 'ease', // default easing for AOS animations
+      once: true, // whether animation should happen only once - while scrolling down
+      mirror: false, // whether elements should animate out while scrolling past them
+      anchorPlacement: 'top-bottom', // defines which position of the element regarding to window should trigger the animation
+    });
+    AOS.refresh();
+  </script>
+</body>
+</html>
